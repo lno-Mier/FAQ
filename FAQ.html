@@ -9,9 +9,9 @@
 			font-family: cursive;
 		}
 		.div_container{
-			width: 350px;
+			width: 340px;
 		}
-		.Answer_container{
+		.answer_container{
 			border: 1px solid;
 			border-left: none;
 			border-right: none;
@@ -20,34 +20,37 @@
 		.div_visible{
 			display: none;
 		}
-		button:focus ~ .div_visible{
-			display: block;
+		.closebtn {
+			display: none;
 		}
 	</style>
 </head>
 <body>
 	<div class="div_container">
-		<div class="Answer_container">
+		<div class="answer_container">
 			<div>Как рассшифровывается школа?
-				<button id="button1">+</button>
-				<div class="div_visible" id="answ1">
+				<button class="openbtn">+</button>
+				<button class="closebtn">-</button>
+				<div class="div_visible">
 					Шизанутая Колония 11 Лет Ада
 				</div>
 			</div>
 		</div>
-		<div class="Answer_container">
-			<div>Кто такая Физичка?
-				<button id="button2">+</button>
-				<div class="div_visible" id="answ2">
-					Существо которое невозможно описать законами физики делает так что даже у учеников давление упадет ниже возможного!
+		<div class="answer_container">
+			<div>Как рассшифровывается школа?
+				<button class="openbtn">+</button>
+				<button class="closebtn">-</button>
+				<div class="div_visible">
+					Шизанутая Колония 11 Лет Ада
 				</div>
 			</div>
 		</div>
-		<div class="Answer_container">
-			<div>Как стать главным любимчиком апай?
-				<button id="button3">+</button>
-				<div class="div_visible" id="answ3">
-					принеси ей похавать на обед и скажи что она твоя самая любимая апай. Тогда можешь смело называть себя ее любимчиком! :3
+		<div class="answer_container">
+			<div>Как рассшифровывается школа?
+				<button class="openbtn">+</button>
+				<button class="closebtn">-</button>
+				<div class="div_visible">
+					Шизанутая Колония 11 Лет Ада
 				</div>
 			</div>
 		</div>
